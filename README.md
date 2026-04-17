@@ -1,6 +1,6 @@
 # Matukar — Notebook Digitisation Pipeline
 
-A Python workflow for digitising handmade artist notebooks containing drawings and handwritten text in **Tok Pisin** and **Matukar Panau** — an endangered Austronesian language of the Rai Coast, Madang Province, Papua New Guinea, with a community-designed orthography and font.
+A Python workflow for digitising handmade artist notebooks containing drawings and handwritten text in **Tok Pisin** and **Matukar Panau** — an endangered Austronesian language with a community-designed orthography and font.
 
 The pipeline takes raw scanned PDFs of notebook pages and produces print-ready book PDFs with drawings and typeset captions. It is designed to be reusable for similar projects involving handmade notebooks, endangered-language materials, or community art archives.
 

@@ -1,0 +1,18 @@
+# ── PDF extraction ─────────────────────────────────────────────────────────────
+pymupdf>=1.23.0          # PDF -> high-res page images (imported as fitz)
+
+# ── Image processing ───────────────────────────────────────────────────────────
+Pillow>=10.0.0           # image I/O, cropping, enhancement
+
+# ── OCR ────────────────────────────────────────────────────────────────────────
+pytesseract>=0.3.10      # Python wrapper for Tesseract OCR
+# Note: Tesseract itself must be installed separately — see README.
+
+# ── UI & web server ────────────────────────────────────────────────────────────
+flask>=3.0.0             # browser-based UI tools (region separation, text review)
+
+# ── Book assembly ──────────────────────────────────────────────────────────────
+fpdf2>=2.7.0             # PDF layout engine with custom font support
+
+# ── Utilities ──────────────────────────────────────────────────────────────────
+tqdm>=4.66.0             # progress bars for batch processing

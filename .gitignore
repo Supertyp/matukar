@@ -1,0 +1,56 @@
+# ── Content directories ────────────────────────────────────────────────────────
+# Raw source PDFs and all processed/generated content stays local only.
+# Only the folder structure (.gitkeep) is tracked.
+
+_raw/*
+!_raw/.gitkeep
+
+_pages/*
+!_pages/.gitkeep
+
+_separated/_drawings/*
+!_separated/_drawings/.gitkeep
+_separated/_text/*
+!_separated/_text/.gitkeep
+
+_enhanced/*
+!_enhanced/.gitkeep
+
+_ocr/*
+!_ocr/.gitkeep
+
+_transcribed/*
+!_transcribed/.gitkeep
+
+_output/*
+!_output/.gitkeep
+
+# ── Windows metadata ───────────────────────────────────────────────────────────
+*Zone.Identifier
+*.pdfZone.Identifier
+*.pdfPG$Secure
+*.pdfAvecto.Zone.Identifier
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ── Claude Code local settings ────────────────────────────────────────────────
+.claude/
+
+# ── OS / editor ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
